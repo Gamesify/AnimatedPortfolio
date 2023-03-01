@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- BU SAYFA GAMESIFY TARAFINDAN KODLANMIŞTIR -->
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Animated Portfolio - Gamesify</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="logo">myfolio <b>.</b></div>
+                <ul class="navItems">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">skills</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+                <div class="links">
+                    <a href="#"><i class="fa fa-instagram"></i></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
+            </nav>
+
+            <div class="wrapper">
+                <div class="cols cols0">
+                    <span class="topline">Hello</span>
+                    <h1>I'm <span class="multiText"></span></h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="btns">
+                        <button>Contact</button>
+                        <button>About</button>
+                    </div>
+                </div>
+                <div class="cols cols1">
+                    <div class="imgbox">
+                        <img src="img/man.png">
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typingEffect = new Typed(".multiText",{
+                strings : ["coder","youtuber","designer"],
+                loop : true,
+                typeSpeed : 100,
+                backSpeed : 80,
+                backDelay : 1500
+            })
+        </script>  
+    </body>
+</html>
